@@ -4,14 +4,14 @@
 #include <iostream>
 #include <iomanip>
 
-class mainMenu
+namespace menus 
 {
-public:
-	static void mainMenuDisplay();
-	static void menuOne();
-	static void menuTwo();
-	static void menuThree();
-};
+	void mainMenuDisplay();
+	void menuOne();
+	void menuTwo();
+	void menuThree();
+}
+
 
 #endif
 

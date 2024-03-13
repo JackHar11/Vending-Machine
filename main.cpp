@@ -5,5 +5,5 @@
 int main()
 {
 	Balance::Balance();
-	mainMenu::mainMenuDisplay();
+	menus::mainMenuDisplay();
 }
