@@ -143,10 +143,12 @@
     <ClCompile Include="balance.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenu.cpp" />
+    <ClCompile Include="Snack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="balance.h" />
     <ClInclude Include="mainMenu.h" />
+    <ClInclude Include="Snack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
