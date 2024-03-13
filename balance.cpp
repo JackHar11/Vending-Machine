@@ -1,17 +1,16 @@
 #include "balance.h"
 
-double Balance::totalBalance;
-double Balance::getBalance()
-{
-	return totalBalance;
-}
 
-void Balance::setBalance(double add)
+namespace Balance
 {
-	totalBalance += add;
-}
+	double totalBalance = 0;
+	double getBalance()
+	{
+		return totalBalance;
+	}
 
-Balance::Balance()
-{
-	totalBalance = 0;
+	void setBalance(double add)
+	{
+		totalBalance += add;
+	}
 }
